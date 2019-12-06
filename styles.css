@@ -1,8 +1,7 @@
 <link href="https://fonts.google.com/">
-<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Lora:700|Source+Serif+Pro&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|DM+Serif+Display|Oswald|Source+Serif+Pro&display=swap" rel="stylesheet">
 #headline{
-font-family: 'DM Serif Display', serif;
+font-family: 'Bebas Neue', cursive;
 font-size: 59px;
 background-color: lightgrey;
 text-align: center;
@@ -10,7 +9,7 @@ text-align: center;
 
 h1{
   text-align: center;
-  font-family: 'Lora', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 59px;
   background-color: lightgrey;
   max-width: 1000px;
@@ -47,7 +46,19 @@ p{
   font-size: 600px;
   margin: 0;
 }
-
+.ummtr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.shoe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: 50%;
+}
 .img-one{
     display: block;
     margin-left: auto;
@@ -103,14 +114,7 @@ p{
   padding-bottom: .5em;
   text-align:left;
 }
-.img-6 img{
-  margin-left:50px;
-  max-width: 700px;
-  float:right;
-  margin-bottom: none;
-  padding-bottom: .5em;
-  text-align right ;
-}
+
 .more{
     font-family:'Source Serif Pro', serif;
     font-size: 20px;
