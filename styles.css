@@ -1,7 +1,7 @@
 <link href="https://fonts.google.com/">
 <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|DM+Serif+Display|Oswald|Source+Serif+Pro&display=swap" rel="stylesheet">
 #headline{
-font-family: 'Bebas Neue', cursive;
+font-family: 'Abril Fatface', cursive;
 font-size: 59px;
 background-color: lightgrey;
 text-align: center;
@@ -9,19 +9,23 @@ text-align: center;
 
 h1{
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 59px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 80px;
   background-color: lightgrey;
-  max-width: 1000px;
   margin: 20px auto;
   text-align: center;
   font-weight: bold;
 }
 
-h2, h3, h4, h6{
+h2 {
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    text-align: left;
+}
+h3, h4, h6{
     text-align: left;
     font-family: 'DM Serif Display', serif;
-    font-size: 26px;
+    font-size: 24px;
     max-width: 1000px;
     margin: 20px auto;
    }
@@ -30,7 +34,7 @@ h2, h3, h4, h6{
      text-align: center;
      font-weight: bold;
      font-family: 'DM Serif Display', serif;
-     font-size: 26px;
+     font-size: 45px;
 }
 .cap1{
     font-size:12px;
@@ -43,7 +47,7 @@ p{
 }
 #byline{
   text-align: left;
-  font-size: 600px;
+  font-size: 200px;
   margin: 0;
 }
 .ummtr{
@@ -73,6 +77,10 @@ p{
 }
 .img-one p{
   text-align: right;
+}
+.photo-cred{
+    text-align: left;
+    font-size:50px;
 }
 .center{
   text-align:justify;
@@ -111,7 +119,7 @@ p{
   max-width: 700px;
   float:left;
   margin-bottom: none;
-  padding-bottom: .5em;
+  padding-bottom: none;
   text-align:left;
 }
 
